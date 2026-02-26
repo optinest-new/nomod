@@ -1,0 +1,39 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgChain" x1="100" y1="100" x2="1480" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFF4FF"/>
+      <stop offset="1" stop-color="#BFD5FF"/>
+    </linearGradient>
+    <radialGradient id="pulseChain" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 450) rotate(90) scale(320)">
+      <stop stop-color="#EAF2FF"/>
+      <stop offset="1" stop-color="#EAF2FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grainChain" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.065"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgChain)"/>
+  <circle cx="800" cy="450" r="300" fill="#D0E1FF"/>
+
+  <path d="M560 290L800 170L1040 290V610L800 730L560 610V290Z" fill="#C0D5FF" stroke="#315EA9" stroke-width="10"/>
+  <circle cx="800" cy="170" r="24" fill="#315EA9"/>
+  <circle cx="560" cy="290" r="24" fill="#315EA9"/>
+  <circle cx="1040" cy="290" r="24" fill="#315EA9"/>
+  <circle cx="560" cy="610" r="24" fill="#315EA9"/>
+  <circle cx="1040" cy="610" r="24" fill="#315EA9"/>
+  <circle cx="800" cy="730" r="24" fill="#315EA9"/>
+
+  <path d="M800 320L920 390V510L800 580L680 510V390L800 320Z" fill="#F7FAFF" stroke="#315EA9" stroke-width="8"/>
+  <path d="M800 394L854 426V484L800 516L746 484V426L800 394Z" fill="#7EA7EC"/>
+
+  <rect x="1150" y="170" width="240" height="300" rx="28" fill="#FFFFFF" stroke="#4D77C5" stroke-width="8"/>
+  <path d="M1270 232L1338 276V364C1338 421 1290 457 1270 468C1250 457 1202 421 1202 364V276L1270 232Z" fill="#88ABE6"/>
+
+  <circle cx="800" cy="450" r="300" fill="url(#pulseChain)"/>
+  <rect width="1600" height="900" filter="url(#grainChain)" opacity="0.5"/>
+</svg>

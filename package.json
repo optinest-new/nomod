@@ -6,12 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "migrate:supabase": "node --env-file=.env.local scripts/migrate-local-content-to-supabase.mjs",
+    "migrate:supabase:content": "node --env-file=.env.local scripts/migrate-local-content-to-supabase.mjs --only=content",
+    "migrate:supabase:media": "node --env-file=.env.local scripts/migrate-local-content-to-supabase.mjs --only=media",
+    "fix:supabase:svg-content-type": "node --env-file=.env.local scripts/fix-supabase-svg-content-type.mjs"
   },
   "dependencies": {
+    "date-fns": "^4.1.0",
+    "gray-matter": "^4.0.3",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "reading-time": "^1.5.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",

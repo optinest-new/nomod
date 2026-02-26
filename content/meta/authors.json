@@ -1,0 +1,47 @@
+[
+  {
+    "id": "abram-lubin",
+    "name": "Abram Lubin",
+    "role": "Photography Editor",
+    "shortBio": "Documents stories through visual details and honest composition.",
+    "bio": "Abram is an accomplished photographer whose work has appeared in editorial campaigns and independent magazines. He writes about visual storytelling, travel, and attention to detail.",
+    "avatar": "/images/authors/abram-lubin.svg",
+    "xUrl": "https://x.com/home/lubin"
+  },
+  {
+    "id": "giana-franci",
+    "name": "Giana Franci",
+    "role": "Senior Writer",
+    "shortBio": "Explores the intersection of creative work, productivity, and life.",
+    "bio": "Giana writes weekly about building thoughtful routines and shipping meaningful projects. Her essays blend practical frameworks with clear and human storytelling.",
+    "avatar": "/images/authors/giana-franci.svg",
+    "xUrl": "https://x.com"
+  },
+  {
+    "id": "carla-dokidis",
+    "name": "Carla Dokidis",
+    "role": "Culture Columnist",
+    "shortBio": "Brings cultural context and clarity to modern lifestyle topics.",
+    "bio": "Carla is an award-winning novelist and columnist focused on culture, ethics, and contemporary identity. She helps readers connect everyday choices with bigger social shifts.",
+    "avatar": "/images/authors/carla-dokidis.svg",
+    "xUrl": "https://x.com"
+  },
+  {
+    "id": "daniel-foster",
+    "name": "Daniel Foster",
+    "role": "Technology Editor",
+    "shortBio": "Makes complicated technology trends understandable and useful.",
+    "bio": "Daniel has led editorial and content teams for over a decade. He writes about AI, systems thinking, and the human side of product development.",
+    "avatar": "/images/authors/daniel-foster.svg",
+    "xUrl": "https://x.com"
+  },
+  {
+    "id": "richard-miller",
+    "name": "Richard Miller",
+    "role": "Design Writer",
+    "shortBio": "Covers design principles, visual systems, and better digital habits.",
+    "bio": "Richard is a design writer focused on interface clarity, typography, and creative process. His work translates design concepts into practical decisions for teams.",
+    "avatar": "/images/authors/richard-miller.svg",
+    "xUrl": "https://x.com"
+  }
+]

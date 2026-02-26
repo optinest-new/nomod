@@ -1,0 +1,38 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgTime" x1="120" y1="100" x2="1480" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F0EA"/>
+      <stop offset="1" stop-color="#DCCFBE"/>
+    </linearGradient>
+    <filter id="grainTime" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.78" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.06"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgTime)"/>
+  <rect x="240" y="120" width="1120" height="660" rx="38" fill="#FCFAF7" stroke="#D5CBBF" stroke-width="8"/>
+
+  <g opacity="0.8">
+    <path d="M330 220H1270" stroke="#D8CFC5" stroke-width="4"/>
+    <path d="M330 320H1270" stroke="#D8CFC5" stroke-width="4"/>
+    <path d="M330 420H1270" stroke="#D8CFC5" stroke-width="4"/>
+    <path d="M330 520H1270" stroke="#D8CFC5" stroke-width="4"/>
+    <path d="M330 620H1270" stroke="#D8CFC5" stroke-width="4"/>
+    <path d="M430 170V730" stroke="#D8CFC5" stroke-width="4"/>
+    <path d="M630 170V730" stroke="#D8CFC5" stroke-width="4"/>
+    <path d="M830 170V730" stroke="#D8CFC5" stroke-width="4"/>
+  </g>
+
+  <circle cx="1088" cy="438" r="172" fill="#E9DACA" stroke="#96775A" stroke-width="10"/>
+  <path d="M1088 438V338" stroke="#795A3E" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1088 438L1166 508" stroke="#795A3E" stroke-width="14" stroke-linecap="round"/>
+
+  <rect x="360" y="648" width="440" height="62" rx="12" fill="#D7C6B4"/>
+  <path d="M394 679H770" stroke="#7D6650" stroke-width="6" stroke-dasharray="2 13"/>
+
+  <rect width="1600" height="900" filter="url(#grainTime)" opacity="0.48"/>
+</svg>

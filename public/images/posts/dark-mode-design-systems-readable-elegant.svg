@@ -1,0 +1,33 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-dark-mode-design-systems-readable-elegant" x1="90" y1="80" x2="1510" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF7F7"/>
+      <stop offset="1" stop-color="#C6E4E4"/>
+    </linearGradient>
+    <filter id="grain-dark-mode-design-systems-readable-elegant" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.06"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg-dark-mode-design-systems-readable-elegant)"/>
+  <rect x="170" y="120" width="1260" height="660" rx="44" fill="#FDFEFF" stroke="#C8D4E6" stroke-width="8"/>
+
+  <circle cx="618" cy="328" r="120" fill="#6FAAAA" opacity="0.32"/>
+  <rect x="258" y="230" width="1058" height="558" rx="34" fill="#F7FAFD" stroke="#D0DAE9" stroke-width="6"/>
+
+  <rect x="318" y="300" width="360" height="210" rx="22" fill="#6FAAAA" opacity="0.25"/>
+  <rect x="728" y="300" width="420" height="42" rx="21" fill="#6FAAAA" opacity="0.6"/>
+  <rect x="728" y="370" width="300" height="30" rx="15" fill="#6FAAAA" opacity="0.48"/>
+  <rect x="728" y="420" width="350" height="30" rx="15" fill="#6FAAAA" opacity="0.44"/>
+
+  <rect x="328" y="560" width="760" height="96" rx="22" fill="#2F6363" opacity="0.17"/>
+  <rect x="368" y="596" width="220" height="20" rx="10" fill="#2F6363" opacity="0.45"/>
+  <rect x="618" y="596" width="170" height="20" rx="10" fill="#2F6363" opacity="0.45"/>
+  <rect x="818" y="596" width="220" height="20" rx="10" fill="#2F6363" opacity="0.45"/>
+
+  <rect width="1600" height="900" filter="url(#grain-dark-mode-design-systems-readable-elegant)" opacity="0.52"/>
+</svg>

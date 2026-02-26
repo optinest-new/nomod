@@ -1,0 +1,44 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgOnboard" x1="120" y1="80" x2="1480" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDF7F1"/>
+      <stop offset="1" stop-color="#BFDCCB"/>
+    </linearGradient>
+    <filter id="grainOnboard" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.06"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgOnboard)"/>
+  <rect x="200" y="120" width="1200" height="660" rx="46" fill="#F9FFFC" stroke="#C5DDCF" stroke-width="8"/>
+
+  <rect x="280" y="300" width="250" height="190" rx="26" fill="#D4E8DB"/>
+  <rect x="350" y="360" width="110" height="18" rx="9" fill="#9CBAA9"/>
+  <rect x="330" y="392" width="150" height="18" rx="9" fill="#9CBAA9"/>
+
+  <rect x="675" y="220" width="250" height="190" rx="26" fill="#CFE5D7"/>
+  <rect x="745" y="280" width="110" height="18" rx="9" fill="#90B5A1"/>
+  <rect x="725" y="312" width="150" height="18" rx="9" fill="#90B5A1"/>
+
+  <rect x="1070" y="300" width="250" height="190" rx="26" fill="#C5E0D0"/>
+  <rect x="1140" y="360" width="110" height="18" rx="9" fill="#86A996"/>
+  <rect x="1120" y="392" width="150" height="18" rx="9" fill="#86A996"/>
+
+  <path d="M530 395H660" stroke="#6D9E84" stroke-width="10" stroke-linecap="round"/>
+  <path d="M925 315H1055" stroke="#6D9E84" stroke-width="10" stroke-linecap="round"/>
+  <path d="M660 395L628 366" stroke="#6D9E84" stroke-width="10" stroke-linecap="round"/>
+  <path d="M660 395L628 424" stroke="#6D9E84" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1055 315L1023 286" stroke="#6D9E84" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1055 315L1023 344" stroke="#6D9E84" stroke-width="10" stroke-linecap="round"/>
+
+  <rect x="340" y="570" width="920" height="120" rx="24" fill="#DDEEE4"/>
+  <rect x="390" y="610" width="280" height="20" rx="10" fill="#9EBEAC"/>
+  <rect x="700" y="610" width="220" height="20" rx="10" fill="#9EBEAC"/>
+  <rect x="950" y="610" width="250" height="20" rx="10" fill="#9EBEAC"/>
+
+  <rect width="1600" height="900" filter="url(#grainOnboard)" opacity="0.5"/>
+</svg>

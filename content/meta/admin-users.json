@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a25ca3e9-04fa-4f57-933a-1f47b675c709",
+    "email": "admin@nomod.local",
+    "name": "Site Admin",
+    "role": "admin",
+    "passwordHash": "97b404d57285f16fa20941b8d64ff95bcfdf4f6a402e18bb69adc035e67dae519ff4ffa41afc6a11dd70bb8240472ddd38d60f4c1bb8613399b098fb082eaee2",
+    "passwordSalt": "64a85ff59827a967fb0c85fd12dfc41a",
+    "isActive": true,
+    "createdAt": "2026-02-21T10:28:50.701Z",
+    "updatedAt": "2026-02-25T16:48:25.027Z",
+    "lastLoginAt": "2026-02-25T16:48:25.027Z"
+  },
+  {
+    "id": "2463a0e8-caad-446a-a1e9-f4bae53bc21c",
+    "email": "mrgabonijeff@gmail.com",
+    "name": "Jeffrey Gaboni",
+    "role": "editor",
+    "passwordHash": "ae6a165d1293e90d0fb3a98c4b952a448bab11230d71aefa5125adc326b93102ce582fee8b8ba60e6f0c84f2cd4cd9cef49be03a02833305f3857415f46503a8",
+    "passwordSalt": "2b942905839ff07062a1d3410ff8200d",
+    "isActive": true,
+    "createdAt": "2026-02-21T10:59:33.121Z",
+    "updatedAt": "2026-02-21T11:31:16.644Z",
+    "lastLoginAt": "2026-02-21T11:31:16.644Z"
+  }
+]

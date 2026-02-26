@@ -1,0 +1,21 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgAbram" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 140) rotate(90) scale(260)">
+      <stop stop-color="#E2EAF0"/>
+      <stop offset="1" stop-color="#C5D0D8"/>
+    </radialGradient>
+    <filter id="grainAbram" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.08"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <circle cx="200" cy="200" r="200" fill="url(#bgAbram)"/>
+  <circle cx="200" cy="150" r="66" fill="#8B6B58"/>
+  <rect x="118" y="220" width="164" height="122" rx="61" fill="#556676"/>
+  <rect x="125" y="175" width="150" height="72" rx="14" fill="#2A3946"/>
+  <circle cx="170" cy="211" r="24" fill="#9DB7CA"/>
+  <circle cx="230" cy="211" r="24" fill="#9DB7CA"/>
+  <rect x="186" y="201" width="28" height="20" rx="6" fill="#B6C9D8"/>
+  <rect width="400" height="400" filter="url(#grainAbram)" opacity="0.45"/>
+</svg>

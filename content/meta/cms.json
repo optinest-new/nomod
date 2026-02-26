@@ -1,0 +1,138 @@
+{
+  "siteConfig": {
+    "name": "Optinest",
+    "title": "Optinest | Web Design, Web Development, AI and SEO",
+    "description": "Optinest publishes practical guides on web design, web development, AI, and SEO to help teams build faster, rank better, and convert more.",
+    "url": "http://localhost:3000",
+    "locale": "en_US"
+  },
+  "header": {
+    "homeAriaLabel": "Optinest Home",
+    "searchLabel": "Search",
+    "contactLabel": "Get in touch",
+    "contactHref": "/about#contact",
+    "menuLinks": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Latest",
+        "href": "/latest"
+      },
+      {
+        "label": "Authors",
+        "href": "/authors"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      }
+    ]
+  },
+  "footer": {
+    "brand": "Optinest",
+    "copy": "Optinest is a focused publication for teams building modern websites. We share practical web design, web development, AI, and SEO insights you can apply right away.",
+    "pagesHeading": "Pages",
+    "resourcesHeading": "Topics",
+    "socialHeading": "Social",
+    "pagesLinks": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Latest",
+        "href": "/latest"
+      },
+      {
+        "label": "Authors",
+        "href": "/authors"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      }
+    ],
+    "resourceLinks": [
+      {
+        "label": "Web Design",
+        "href": "/latest"
+      },
+      {
+        "label": "Web Development",
+        "href": "/latest"
+      },
+      {
+        "label": "AI",
+        "href": "/latest"
+      },
+      {
+        "label": "SEO",
+        "href": "/latest"
+      }
+    ],
+    "socialLinks": [
+      {
+        "platform": "facebook",
+        "href": "https://facebook.com"
+      },
+      {
+        "platform": "x",
+        "href": "https://x.com"
+      },
+      {
+        "platform": "instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "platform": "tiktok",
+        "href": "https://tiktok.com"
+      }
+    ],
+    "copyrightText": "2026 © Optinest. Built for modern digital growth.",
+    "backToTopLabel": "Back to top"
+  },
+  "home": {
+    "heroKicker": "Web Design, Development, AI, and SEO",
+    "heroTitle": "Practical Strategies for Web Design, Development, AI, and SEO",
+    "heroDescription": "Explore implementation-focused guides, real workflows, and growth playbooks for building better websites and ranking stronger in search.",
+    "heroCtaLabel": "Explore latest articles",
+    "heroCtaHref": "/latest",
+    "featuredHeading": "Featured",
+    "latestHeading": "Latest",
+    "latestViewAllLabel": "View all",
+    "recommendedHeading": "Recommended",
+    "schemaDescription": "Actionable web design, web development, AI, and SEO insights for modern teams."
+  },
+  "latestPage": {
+    "metaTitle": "Latest Web Design, Development, AI, and SEO Posts",
+    "metaDescription": "Browse the newest Optinest articles on web design, web development, AI, and SEO, with practical frameworks and implementation details.",
+    "heroTitle": "Latest Posts on Web Design, Development, AI, and SEO",
+    "heroDescription": "Read the newest guides, case-based lessons, and practical breakdowns to improve website quality, performance, and organic growth."
+  },
+  "authorsPage": {
+    "metaTitle": "Authors",
+    "metaDescription": "Meet the Optinest contributors covering web design, web development, AI, and SEO with practical, execution-ready advice.",
+    "heroTitle": "Authors",
+    "heroDescription": "Meet the specialists behind our web design, web development, AI, and SEO content."
+  },
+  "aboutPage": {
+    "metaTitle": "About Optinest",
+    "metaDescription": "Learn about Optinest, a publication dedicated to web design, web development, AI, and SEO best practices.",
+    "heroTitle": "About Optinest",
+    "heroDescription": "Optinest is built for teams that want practical guidance on web design, web development, AI, and SEO without the noise.",
+    "missionParagraph": "Our mission is to publish practical, technically sound insights that help teams ship better digital experiences and grow sustainably through search.",
+    "valueQuote": "We value clarity over hype, execution over theory, and long-term growth over shortcuts.",
+    "experienceParagraph": "Every article is designed to be useful in real production work, from component-level design decisions to front-end performance and SEO architecture.",
+    "closingParagraph": "As the web evolves, we continue to share tested workflows, modern frameworks, and actionable playbooks that connect design quality with measurable results.",
+    "teamCaption": "The Optinest team and workspace.",
+    "planningCaption": "Planning practical content for modern web teams."
+  },
+  "newsletter": {
+    "title": "Get Weekly Web Design, Development, AI, and SEO Insights",
+    "description": "Every week, we send practical strategies, implementation tips, and optimization ideas you can apply to your next release.",
+    "emailPlaceholder": "Your work email",
+    "buttonLabel": "Subscribe"
+  }
+}

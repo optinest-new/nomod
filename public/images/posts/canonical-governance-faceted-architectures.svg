@@ -1,0 +1,34 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-canonical-governance-faceted-architectures" x1="90" y1="80" x2="1510" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7E7"/>
+      <stop offset="1" stop-color="#F4E2B2"/>
+    </linearGradient>
+    <filter id="grain-canonical-governance-faceted-architectures" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.81" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.06"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg-canonical-governance-faceted-architectures)"/>
+  <rect x="170" y="120" width="1260" height="660" rx="46" fill="#FCFEFF" stroke="#CAD8EB" stroke-width="8"/>
+
+  <rect x="215" y="255" width="460" height="420" rx="32" fill="#C89D46" opacity="0.24"/>
+  <rect x="755" y="295" width="520" height="72" rx="16" fill="#C89D46" opacity="0.52"/>
+  <rect x="755" y="397" width="420" height="28" rx="14" fill="#C89D46" opacity="0.45"/>
+  <rect x="755" y="445" width="360" height="28" rx="14" fill="#C89D46" opacity="0.45"/>
+
+  <circle cx="395" cy="405" r="72" fill="#77561B" opacity="0.52"/>
+  <rect x="335" y="515" width="260" height="22" rx="11" fill="#77561B" opacity="0.5"/>
+  <rect x="335" y="555" width="220" height="22" rx="11" fill="#77561B" opacity="0.5"/>
+
+  <path d="M975 605H1135" stroke="#77561B" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="975" cy="605" r="15" fill="#77561B"/>
+  <circle cx="1055" cy="605" r="15" fill="#77561B"/>
+  <circle cx="1135" cy="605" r="15" fill="#77561B"/>
+
+  <rect width="1600" height="900" filter="url(#grain-canonical-governance-faceted-architectures)" opacity="0.52"/>
+</svg>

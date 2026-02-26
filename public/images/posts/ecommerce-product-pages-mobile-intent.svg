@@ -1,0 +1,33 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-ecommerce-product-pages-mobile-intent" x1="90" y1="80" x2="1510" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3F8EF"/>
+      <stop offset="1" stop-color="#CCE1C4"/>
+    </linearGradient>
+    <filter id="grain-ecommerce-product-pages-mobile-intent" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.06"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg-ecommerce-product-pages-mobile-intent)"/>
+  <rect x="170" y="120" width="1260" height="660" rx="44" fill="#FDFEFF" stroke="#C8D4E6" stroke-width="8"/>
+
+  <circle cx="311" cy="361" r="120" fill="#7FA07A" opacity="0.32"/>
+  <rect x="271" y="230" width="1031" height="531" rx="34" fill="#F7FAFD" stroke="#D0DAE9" stroke-width="6"/>
+
+  <rect x="331" y="300" width="360" height="210" rx="22" fill="#7FA07A" opacity="0.25"/>
+  <rect x="741" y="300" width="420" height="42" rx="21" fill="#7FA07A" opacity="0.6"/>
+  <rect x="741" y="370" width="300" height="30" rx="15" fill="#7FA07A" opacity="0.48"/>
+  <rect x="741" y="420" width="350" height="30" rx="15" fill="#7FA07A" opacity="0.44"/>
+
+  <rect x="341" y="560" width="760" height="96" rx="22" fill="#3D5D45" opacity="0.17"/>
+  <rect x="381" y="596" width="220" height="20" rx="10" fill="#3D5D45" opacity="0.45"/>
+  <rect x="631" y="596" width="170" height="20" rx="10" fill="#3D5D45" opacity="0.45"/>
+  <rect x="831" y="596" width="220" height="20" rx="10" fill="#3D5D45" opacity="0.45"/>
+
+  <rect width="1600" height="900" filter="url(#grain-ecommerce-product-pages-mobile-intent)" opacity="0.52"/>
+</svg>

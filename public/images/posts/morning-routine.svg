@@ -1,0 +1,58 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgMorning" x1="80" y1="80" x2="1520" y2="820" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBF3E5"/>
+      <stop offset="0.55" stop-color="#E9D0A6"/>
+      <stop offset="1" stop-color="#D0A57B"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(370 220) rotate(90) scale(280)">
+      <stop stop-color="#FFD37A" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFD37A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paper" x1="820" y1="170" x2="1350" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F0ECE6"/>
+    </linearGradient>
+    <filter id="grainMorning" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.07"/>
+      </feComponentTransfer>
+    </filter>
+    <radialGradient id="vignetteMorning" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 450) rotate(90) scale(560 980)">
+      <stop offset="0.68" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.2"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgMorning)"/>
+  <rect y="590" width="1600" height="310" fill="#C88B56" opacity="0.45"/>
+  <rect x="0" y="520" width="1600" height="380" fill="url(#sunGlow)"/>
+
+  <g opacity="0.94">
+    <rect x="840" y="170" width="540" height="560" rx="42" fill="url(#paper)"/>
+    <rect x="840" y="170" width="540" height="560" rx="42" stroke="#28211D" stroke-width="10"/>
+    <rect x="900" y="280" width="340" height="30" rx="15" fill="#D9D5CE"/>
+    <rect x="900" y="370" width="300" height="30" rx="15" fill="#D9D5CE"/>
+    <rect x="900" y="460" width="330" height="30" rx="15" fill="#D9D5CE"/>
+    <path d="M858 290L878 312L916 266" stroke="#2C875B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M858 380L878 402L916 356" stroke="#2C875B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M858 470L878 492L916 446" stroke="#2C875B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <circle cx="370" cy="220" r="112" fill="#FDBD58"/>
+    <circle cx="370" cy="220" r="180" fill="url(#sunGlow)"/>
+  </g>
+
+  <g opacity="0.96">
+    <rect x="220" y="500" width="420" height="260" rx="28" fill="#885228"/>
+    <rect x="270" y="440" width="320" height="90" rx="44" fill="#9A5E2E"/>
+    <rect x="335" y="565" width="190" height="24" rx="12" fill="#E4C49C"/>
+    <rect x="335" y="607" width="160" height="24" rx="12" fill="#E4C49C"/>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#vignetteMorning)"/>
+  <rect width="1600" height="900" filter="url(#grainMorning)" opacity="0.55"/>
+</svg>

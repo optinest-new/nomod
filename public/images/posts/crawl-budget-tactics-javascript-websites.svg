@@ -1,0 +1,34 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-crawl-budget-tactics-javascript-websites" x1="90" y1="80" x2="1510" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF3EA"/>
+      <stop offset="1" stop-color="#F2D7C4"/>
+    </linearGradient>
+    <filter id="grain-crawl-budget-tactics-javascript-websites" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.81" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.06"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg-crawl-budget-tactics-javascript-websites)"/>
+  <rect x="170" y="120" width="1260" height="660" rx="46" fill="#FCFEFF" stroke="#CAD8EB" stroke-width="8"/>
+
+  <rect x="244" y="254" width="460" height="420" rx="32" fill="#C68863" opacity="0.24"/>
+  <rect x="784" y="294" width="520" height="72" rx="16" fill="#C68863" opacity="0.52"/>
+  <rect x="784" y="396" width="420" height="28" rx="14" fill="#C68863" opacity="0.45"/>
+  <rect x="784" y="444" width="360" height="28" rx="14" fill="#C68863" opacity="0.45"/>
+
+  <circle cx="424" cy="404" r="72" fill="#7F4A2C" opacity="0.52"/>
+  <rect x="364" y="514" width="260" height="22" rx="11" fill="#7F4A2C" opacity="0.5"/>
+  <rect x="364" y="554" width="220" height="22" rx="11" fill="#7F4A2C" opacity="0.5"/>
+
+  <path d="M1004 634H1164" stroke="#7F4A2C" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="1004" cy="634" r="15" fill="#7F4A2C"/>
+  <circle cx="1084" cy="634" r="15" fill="#7F4A2C"/>
+  <circle cx="1164" cy="634" r="15" fill="#7F4A2C"/>
+
+  <rect width="1600" height="900" filter="url(#grain-crawl-budget-tactics-javascript-websites)" opacity="0.52"/>
+</svg>
