@@ -3,6 +3,7 @@ import { Manrope, Playfair_Display } from "next/font/google";
 import { Suspense } from "react";
 
 import { AnalyticsTracker } from "@/components/AnalyticsTracker";
+import { PublicNavigationProgress } from "@/components/PublicNavigationProgress";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getCmsContent } from "@/lib/cms";
@@ -92,6 +93,9 @@ export default async function RootLayout({
         <a className="skip-link" href="#main-content">
           Skip to content
         </a>
+        <Suspense fallback={null}>
+          <PublicNavigationProgress />
+        </Suspense>
         <div className="site-shell" id="top">
           <Suspense fallback={null}>
             <AnalyticsTracker />
